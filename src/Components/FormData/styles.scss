@@ -1,0 +1,43 @@
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+
+  .btn-holder {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+
+    .center {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .btn {
+      background: none;
+      outline: none;
+      min-width: 200px;
+      border-radius: 10px;
+      height: 50px;
+      border: none;
+      text-transform: uppercase;
+      color: #fff;
+      cursor: pointer;
+
+      &.submit {
+        background: #1a7b1a;
+      }
+
+      &.clear {
+        background: #f50000;
+      }
+    }
+  }
+}
